@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+<h:head></h:head>
+<body onload="#{formLibro.inicializarLibro()}">
+	<h:form id="ftmPrincipal">
+		<div align="center">
+			<h1>Hola Mundos</h1>
+			<br />
+			<p:panelGrid columns="2">
+				<p:outputLabel value="ISBN" />
+				<p:inputText value="#{formLibro.obCrsLibro.isbn}" />
+				<p:outputLabel value="TITULO" />
+				<p:inputText value="#{formLibro.obCrsLibro.titulo}" />
+				<p:outputLabel value="DESCRIPTION" />
+				<p:inputTextarea value="#{formLibro.obCrsLibro.descrpcion}" />
+				<p:outputLabel value="FECHA" />
+				<p:calendar value="#{formLibro.obCrsLibro.fechaPublicacion}"
+					pattern="dd/MM/yyyy" />
+				<p:outputLabel value="Precio" />
+				<p:inputNumber value="#{formLibro.obCrsLibro.precio}" minvalue="0"
+					decimalPlaces="2" />
+			</p:panelGrid>
+			<p:commandButton actionListener="#{formLibro.ingresarLibro()}"
+				value="Ingresar" />
+		</div>
+	</h:form>
+</body>
+</html>

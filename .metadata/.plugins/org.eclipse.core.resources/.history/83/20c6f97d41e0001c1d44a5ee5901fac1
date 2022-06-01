@@ -1,0 +1,5 @@
+package com.emelnorte.model.modulo.pry_Libros;
+
+public class ManagerDaoAutor {
+
+}

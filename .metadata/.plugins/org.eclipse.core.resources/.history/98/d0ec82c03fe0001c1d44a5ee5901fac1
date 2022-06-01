@@ -1,0 +1,45 @@
+package com.emelnorte.controller.pry_Autor;
+
+import javax.ejb.EJB;
+
+import com.emelnorte.model.entities.pyr_Libros.CrsAutor;
+import com.emelnorte.model.entities.pyr_Libros.CrsLibro;
+import com.emelnorte.model.modulo.pry_Libros.ManagerCrsLibro;
+
+public class FormAutor {
+
+private CrsAutor obsCrsAutor;
+	
+	@EJB
+	private ManagerCrsAutor managerCrsLibro;
+	
+	public FormLibro() {
+		
+	}
+	
+	public void inicializarLibro() {
+		obCrsLibro= new CrsLibro();	
+	}
+	
+	public void ingresarLibro() {
+		try {
+			managerCrsLibro.insertarLibro(obCrsLibro);	
+		} catch (Exception e) {
+			System.out.println("Eror:" + e.getMessage());
+		}
+}
+
+	public CrsLibro getObCrsLibro() {
+		return obCrsLibro;
+	}
+
+	public void setObCrsLibro(CrsLibro obCrsLibro) {
+		this.obCrsLibro = obCrsLibro;
+	}
+
+}
+	
+	
+}
+
+

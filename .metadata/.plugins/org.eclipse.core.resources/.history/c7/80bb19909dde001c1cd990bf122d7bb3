@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Pry_Libros">
+        <property name="context-root" value="Pry_Libros"/>
+        <property name="java-output-path" value="/Pry_Libros/build/classes"/>
+    </wb-module>
+</project-modules>

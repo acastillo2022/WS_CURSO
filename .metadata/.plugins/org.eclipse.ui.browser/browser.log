@@ -1,0 +1,87 @@
+
+may. 30, 2022 07:25:46.219 NEW SESSION
+may. 30, 2022 07:25:46.219 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 30, 2022 07:25:46.219 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 30, 2022 07:25:46.219 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 30, 2022 07:25:46.290 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 30, 2022 07:25:47.336 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 30, 2022 07:25:47.345 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 30, 2022 07:25:47.353 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 30, 2022 07:25:47.376 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 30, 2022 07:50:13.396 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 30, 2022 07:50:13.405 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 30, 2022 07:50:13.413 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 30, 2022 07:50:13.436 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 30, 2022 07:50:13.720 
+may. 30, 2022 07:50:13.720 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+may. 30, 2022 07:50:13.720 
+may. 30, 2022 07:50:14.134 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 30, 2022 07:50:14.143 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 30, 2022 07:50:14.152 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 30, 2022 07:50:14.173 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 30, 2022 07:58:53.767 
+may. 30, 2022 07:58:53.767 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+may. 30, 2022 07:58:53.768 
+may. 30, 2022 07:58:53.768 
+may. 30, 2022 07:58:53.768 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+may. 30, 2022 07:58:53.768 
+may. 30, 2022 07:58:59.777 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 30, 2022 08:01:20.105 
+may. 30, 2022 08:01:20.105 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+may. 30, 2022 08:01:20.105 
+
+may. 31, 2022 09:05:34.937 NEW SESSION
+may. 31, 2022 09:05:34.937 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 09:05:34.954 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 09:05:34.954 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 09:05:34.969 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 09:05:35.824 
+may. 31, 2022 09:05:35.824 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+may. 31, 2022 09:05:35.824 
+may. 31, 2022 09:05:36.213 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 09:05:36.221 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 09:05:36.228 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 09:05:36.246 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 09:10:50.495 
+may. 31, 2022 09:10:50.495 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+may. 31, 2022 09:10:50.495 
+may. 31, 2022 11:38:32.471 [Child 6929, MediaDecoderStateMachine #1] WARNING: Decoder=7f4a69e37700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-BVyW0E/firefox-95.0.1+build2/dom/media/MediaDecoderStateMachine.cpp:367
+may. 31, 2022 11:38:32.471 [Child 6929, MediaDecoderStateMachine #1] WARNING: Decoder=7f4a69e37700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - virtual RefPtr<MP4Demuxer::InitPromise> mozilla::MP4Demuxer::Init(): Parse MP4 metadata failed: file /build/firefox-BVyW0E/firefox-95.0.1+build2/dom/media/MediaDecoderStateMachine.cpp:3568
+may. 31, 2022 11:39:33.229 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 11:42:47.207 [Child 6929, MediaDecoderStateMachine #1] WARNING: Decoder=7f4a73ed2100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-BVyW0E/firefox-95.0.1+build2/dom/media/MediaDecoderStateMachine.cpp:367
+may. 31, 2022 11:42:47.207 [Child 6929, MediaDecoderStateMachine #1] WARNING: Decoder=7f4a73ed2100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - virtual RefPtr<MP4Demuxer::InitPromise> mozilla::MP4Demuxer::Init(): Parse MP4 metadata failed: file /build/firefox-BVyW0E/firefox-95.0.1+build2/dom/media/MediaDecoderStateMachine.cpp:3568
+may. 31, 2022 12:09:11.925 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 12:09:27.206 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 12:10:06.134 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 12:21:27.419 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 14:21:01.375 
+may. 31, 2022 14:21:01.380 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+may. 31, 2022 14:21:01.381 
+may. 31, 2022 14:21:01.381 
+may. 31, 2022 14:21:01.381 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+may. 31, 2022 14:21:01.381 
+may. 31, 2022 14:21:01.381 
+may. 31, 2022 14:21:01.381 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+may. 31, 2022 14:21:01.381 
+may. 31, 2022 14:21:01.381 
+may. 31, 2022 14:21:01.381 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+may. 31, 2022 14:21:01.381 
+may. 31, 2022 14:22:46.758 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 14:22:52.571 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 14:22:55.258 
+may. 31, 2022 14:22:55.258 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+may. 31, 2022 14:22:55.258 
+may. 31, 2022 14:22:55.258 
+may. 31, 2022 14:22:55.258 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+may. 31, 2022 14:22:55.258 
+may. 31, 2022 14:22:56.780 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 14:22:59.591 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 14:23:05.694 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 14:23:08.437 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 14:24:01.368 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 14:24:07.312 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 14:24:11.596 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 14:24:15.965 ATTENTION: default value of option mesa_glthread overridden by environment.
+may. 31, 2022 14:27:59.835 
+may. 31, 2022 14:27:59.835 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+may. 31, 2022 14:27:59.836 

@@ -1,0 +1,20 @@
+package com.emelnorte.model.modulo.pry_Libros;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class ManagerCrsLibro
+ */
+@Stateless
+@LocalBean
+public class ManagerCrsLibro {
+
+    /**
+     * Default constructor. 
+     */
+    public ManagerCrsLibro() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

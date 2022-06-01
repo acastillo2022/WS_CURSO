@@ -1,0 +1,20 @@
+package com.emelenorte.model.dao.pyr_Libros;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class ManagerDAOLibro
+ */
+@Stateless
+@LocalBean
+public class ManagerDAOLibro {
+
+    /**
+     * Default constructor. 
+     */
+    public ManagerDAOLibro() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

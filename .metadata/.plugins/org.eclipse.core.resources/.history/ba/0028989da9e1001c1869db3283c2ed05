@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+      
+<h:head></h:head>
+<body onload="#{formAutor.inicializarAutor()}">
+	<h:form id="ftmPrincipal">
+		<div align="center">
+			<h1>Hola Mundo Autor</h1>
+			<br />
+			<p:panelGrid columns="2">
+				<p:outputLabel value="Cedula" />
+				<p:inputText value="#{formAutor.obCrsAutor.cedula}" />
+				<p:outputLabel value="Nombre" />
+				<p:inputText value="#{formAutor.obCrsAutor.nombre}" />
+				<p:outputLabel value="Apellido" />
+				<p:inputText value="#{formAutor.obCrsAutor.apellido}" />
+				<p:outputLabel value="Direccion" />
+				<p:inputTextarea value="#{formAutor.obCrsAutor.direccion}"/>
+				<p:outputLabel value="Telefono" />
+				<p:inputText value="#{formAutor.obCrsAutor.telefono}"/>
+				<p:outputLabel value="Fecha de Nacimiento" />
+				<p:calendar value="#{formAutor.obCrsAutor.fechaNacimiento}"
+					navigator="true"
+					pattern="dd/MM/yyyy" />	
+			</p:panelGrid>
+			
+			<p>
+			 <p:commandButton actionListener="#{formAutor.ingresarAutor()}"
+				value="Ingresar" />	
+			</p>
+			
+			<p:galleria value="#{imagesView.images}" var="images" panelWidth="500" panelHeight="313" showCaption="true">
+    <p:graphicImage name="file:///home/emelnorte/Im%C3%A1genes/consulta-planilla-luz-emelnorte.jpg" alt="Emelnorte #{images}" title="#{images}"/>
+</p:galleria>
+
+
+ <p align="right"> </p>
+<style type="text/css">
+    i {
+        margin-right: 10px;
+    }
+ 
+    .ui-grid-col-3 {
+        padding: 4px 10px;
+    }
+</style>
+ 
+<h3 style="margin-top:0">DESEA</h3>
+
+
+<p:commandButton value="Editar"  icon="fa fa-fw fa-edit"  type="button" />   
+<p:commandButton value="Eliminar" icon="fa fa-fw fa-remove" type="button"/>
+<p:commandButton value="Descargar" icon="fa fa-fw fa-download" type="button"/>
+
+			</div>
+	</h:form>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/home/emelnorte/Documentos/WS_CURSO/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1448609135.index
+3413149867.index
+2125184880.index
+2984621144.index
+1722739005.index
+4061491468.index
+485195804.index

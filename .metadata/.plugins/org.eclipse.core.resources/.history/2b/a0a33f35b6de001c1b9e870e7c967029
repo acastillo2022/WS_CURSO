@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://java.sun.com/org/ui"
+      xmlns:P="http://richfaces.org/rich">
+
+
+
+<h:head></h:head> 
+<body> 
+<h1>Hola Mundo</h1>
+ <h:form id= "ftmPrincipa">
+ 	<div align ="center">
+ 	<br/>
+ 	<p:panelGrid columns="2"
+ 		<p:outputLabel value="ISBN" />
+ 		<p:inputText value="#{formLibro.objCrsLibro.isbn}"/>
+ 		<p:outputLabel value=TITULO"" />
+ 		<p:inputText value="" />
+ 		<p:outputLabel value="DESCRIPTION" />
+ 		<p:inputTextarea value="{formLibro.objCrsLibro.descripcion" />
+ 		<p:outputLabel value="FECHA" />
+ 		<P:calendar value="{formLibro.objCrsLibro.fechaPublicacion}"
+ 			pattern="dd/MM/yyyy"/>
+ 		<p:outputLabel value="Precio"/>
+ 		<p:inputNumber value="{formLibro.objCrsLibro.precio" minvalue="0" decimalPlaces="2"> />
+ 		
+ 	</p:panelGrid>
+ 		<p:commandButton actionListener= "#{formLibro.ingresarLibro()}" value="Ingresar"/>
+ 	
+ 	</div>	
+ </h:from>
+       
+</body> 
+</html>

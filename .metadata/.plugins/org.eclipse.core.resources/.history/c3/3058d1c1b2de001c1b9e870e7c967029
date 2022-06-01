@@ -1,0 +1,30 @@
+package com.emelnorte.controller.pry_Libros;
+@ManagedBean
+public class FormLibro {
+	
+
+
+	private CrsLibro objCrsLibro;
+	
+	@EJB
+	private MangerCrsLibro managerCrsLibro;
+	
+	public void ingresarLibro() {
+		try {
+		managerCrsLibro.insertarLibro(objCrsLibro);	
+		} catch (Exception e) {
+			system.out.println("Eror:" + e.getMessage());
+			e.printStackTrace();
+		}
+
+}
+
+	public CrsLibro getObjCrsLibro() {
+		return objCrsLibro;
+	}
+	
+	Public void setObjCrsLibro = objCrsLibro;
+	
+	}
+
+}

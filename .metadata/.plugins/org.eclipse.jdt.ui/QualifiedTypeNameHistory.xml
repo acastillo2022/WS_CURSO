@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="javax.annotation.ManagedBean"/>
+    <fullyQualifiedTypeName name="javax.enterprise.context.SessionScoped"/>
+    <fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
+    <fullyQualifiedTypeName name="javax.faces.bean.SessionScoped"/>
+    <fullyQualifiedTypeName name="com.emelnorte.model.entities.pyr_Libros.CrsLibro"/>
+    <fullyQualifiedTypeName name="com.emelnorte.model.modulo.pry_Libros.ManagerCrsLibro"/>
+    <fullyQualifiedTypeName name="com.emelnorte.controller.pry_Libros.FormAutor"/>
+    <fullyQualifiedTypeName name="com.emelnorte.controller.pry_Autor.FormAutor"/>
+    <fullyQualifiedTypeName name="javax.ejb.Stateless"/>
+    <fullyQualifiedTypeName name="javax.ejb.LocalBean"/>
+    <fullyQualifiedTypeName name="javax.ejb.EJB"/>
+    <fullyQualifiedTypeName name="com.emelnorte.model.modulo.pry_Libros.ManagerCrsAutor"/>
+    <fullyQualifiedTypeName name="com.emelnorte.controller.pry_Autor.ManagerDAOAutor"/>
+    <fullyQualifiedTypeName name="com.emelenorte.model.dao.pyr_Libros.ManagerDAOAutor"/>
+    <fullyQualifiedTypeName name="com.emelnorte.model.entities.pyr_Libros.CrsAutor"/>
+    <fullyQualifiedTypeName name="com.emelenorte.model.dao.pyr_Libros.ManagerDAOLibro"/>
+    <fullyQualifiedTypeName name="javax.inject.Named"/>
+    <fullyQualifiedTypeName name="javax.enterprise.context.RequestScoped"/>
+    <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>
